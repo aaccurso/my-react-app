@@ -11,14 +11,16 @@
     "eslint": "^3.19.0",
     "eslint-config-react-app": "^1.0.4",
     "eslint-config-valtech": "^1.1.0",
+    "husky": "^0.13.3",
     "stylelint": "^7.10.1",
     "stylelint-config-standard": "^16.0.0"
   },
   "scripts": {
+    "precommit": "npm run eslint && npm run stylelint",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test --env=jsdom",
-    "eslint": "eslint 'src/**/*.{js,jsx}'",
-    "stylelint": "stylelint 'src/**/*.{css,scss}'"
+    "eslint": "eslint '**/*.{js,jsx}'",
+    "stylelint": "stylelint '**/*.{css,scss}'"
   }
 }
