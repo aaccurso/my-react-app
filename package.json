@@ -7,7 +7,7 @@
     "react-dom": "^15.5.4"
   },
   "devDependencies": {
-    "aaccurso-react-scripts": "1.0.7-fork.2",
+    "aaccurso-react-scripts": "1.0.10-fork.0",
     "eslint": "^3.19.0",
     "eslint-config-react-app": "^1.0.4",
     "eslint-config-valtech": "^1.1.0",
