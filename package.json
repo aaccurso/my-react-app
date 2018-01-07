@@ -26,6 +26,8 @@
   },
   "lint-staged": {
     "*.{js,jsx}": "eslint",
-    "*.{css, scss}": "stylelint"
+    "*.{css,scss}": "stylelint",
+    ".eslintrc.js": "eslint-all",
+    ".stylelintrc.js": "stylelint-all"
   }
 }
